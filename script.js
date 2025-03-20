@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function getWeather(city = null, lat = null, lon = null) {
-    const apiKey = "255bf8702de30c15517c737803cb2420"; // Replace with your OpenWeather API key
+    const apiKey = ""; // Replace with your OpenWeather API key
     let url, forecastUrl;
 
     if (city) {
